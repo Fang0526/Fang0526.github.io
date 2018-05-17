@@ -1,0 +1,6 @@
+------
+title: "Something want to mark down about Linux FTP"
+------
+1. using ftp://username@ip access FTP server on Linux
+  a. when accessing ftp on browser, it shows root folder of Linux, but when clicking on vsftpd, cannot access
+  b. when accessing ftp on Folder Explorer, it shows folder which be configed in /etc/vsftpd.conf(local_root)
