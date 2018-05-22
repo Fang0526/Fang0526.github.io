@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Something want to mark down about Linux SSH"
+---
+1. not allowed root user to login
+2. if user didn't asked to enter password and returns message "Permission denied(Public key)" -- update /etc/ssh/sshd_config to set 
+PasswordAuthentication=yes and then restart ssh service 'sudo /etc/init.d/ssh start'
