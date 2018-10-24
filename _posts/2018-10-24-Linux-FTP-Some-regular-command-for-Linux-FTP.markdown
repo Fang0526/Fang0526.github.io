@@ -13,13 +13,13 @@ command：service vsftpd start
 command：ps -ef|grep -i ftp
 command：netstat -an | grep 21 --??
 
-**FTP连接后的常见用法**
-1、连接FTP    
-命令：ftp ip地址/主机名
-输入正确的用户名和密码，验证通过就可以连接到这个指定远程主机了
+**normal command after FTP service started**
+1、connect to FTP    
+command：ftp ip address/hostname
+type correct ftp user and password(be defined in file /etc/vsftpd/vsftpd.user_list)
 
-2、在远程主机查看文件等操作
-即你连接的远程主机上操作，方法和平常一模一样，如
+2、check files on ftp host
+same as usual Linux command, likd:
 ftp> ls 
 ftp>pwd
 
