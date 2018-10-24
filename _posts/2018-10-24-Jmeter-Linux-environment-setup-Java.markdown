@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jmeter-Linux environment setup(1)-Java environment"
+title: "Jmeter-Linux environment setup(1)-Java deployment"
 ---
 
 1. download jdk package for Linux
