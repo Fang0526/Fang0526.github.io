@@ -16,3 +16,5 @@ title: "Jmeter-Linux environment setup(2)-Jemeter deployment"
         export PATH=$JMETER_HOME/bin:$PATH:$HOME/bin
 
 4. use command 'jmeter --version' to test if Jmeter be deployed successfully
+
+REFERENCE: https://www.cnblogs.com/jessicaxu/p/7555046.html
