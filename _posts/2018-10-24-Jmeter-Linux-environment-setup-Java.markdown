@@ -16,8 +16,8 @@ title: "Jmeter-Linux environment setup(1)-Java deployment"
     commands: vi /etc/profile 
     and add following content:
       #Java Env
-      export JAVA_HOME=/usr/jdk1.8.0_191 (depends on the jdk package version)
-      export JRE_HOME=/usr/jdk1.8.0_191/jre
+      export JAVA_HOME=/usr/local/java/jdk1.8.0_191 (depends on the jdk package version)
+      export JRE_HOME=/usr/local/java/jdk1.8.0_191/jre
       export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
       export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
 
