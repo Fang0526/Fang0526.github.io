@@ -14,6 +14,7 @@ command：ps -ef|grep -i ftp
 command：netstat -an | grep 21 --??
 
 **normal command after FTP service started**
+
 1、connect to FTP    
 command：ftp ip address/hostname
 type correct ftp user and password(be defined in file /etc/vsftpd/vsftpd.user_list)
